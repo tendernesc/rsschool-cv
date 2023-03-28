@@ -12,3 +12,26 @@ There is no any bad habit from my side. I have good communication skills, friend
 * VS Code;
 * Git;
 * Web (HTML, CSS,);
+## Code Example:
+*Write a function that determines whether all characters in a string are unique. Case must be respected: `‘a’` and `‘A’` are different characters.*
+```
+function isUnique(string) {
+  const str = string.split("");
+  for (let i = 0; i < str.length; i++) {
+    let arrVal = str.filter((el) => el === str[i]);
+    if (arrVal.length !== 1) {
+      return false;
+    }
+  }
+  return true;
+}
+```
+## Experience:
+learn in rs school
+## Education:
+* **University:** Belarusian state university of transort, Civil engineer.
+* **Courses:** rs school
+## Languages:
+* English - B1;
+* Russian - Native;
+* Deutsch - basic
